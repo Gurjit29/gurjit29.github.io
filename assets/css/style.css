@@ -44,6 +44,10 @@ body {
         display: block;
         margin: auto;
     }
+    a.nav-link.active {
+        width: fit-content;
+        padding: 5px;
+    }
 }
 
 .centered-content {
