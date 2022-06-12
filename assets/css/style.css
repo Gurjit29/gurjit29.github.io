@@ -1,0 +1,89 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.img-vision {
+    width: 99%;
+}
+
+.blue-text {
+    color: #3459e6;
+}
+
+#root {
+    padding-top: 50px;
+}
+
+.accordion {
+    border: 2px solid #3459e6;
+}
+
+@media only screen and (min-width: 760px) {
+    /* To center the content vertically on desktop and tablet devices*/
+    #root {
+        height: 80%;
+    }
+    .nav {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .img-fluid {
+        display: block;
+        margin: auto;
+        width: 70% !important;
+    }
+    .row {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+}
+
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    width: 80%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 4px solid #3459e6;
+    padding: 3px;
+}
+
+.card {
+    border-width: 2px;
+}
+
+.skill-img {
+    border: 3px solid #3459e6;
+    padding: 2px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Mimic the functionality of SPA using CSS: https://css-tricks.com/a-whole-website-in-a-single-html-file */
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+
+/* Make all cols of same height */
