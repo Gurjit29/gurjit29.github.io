@@ -17,7 +17,7 @@ function setActiveClassOnNavLink(){
   if(hash == ''){  //Load homepage by default if no hash specified
     $('a[href="#home"]').addClass("active");
     window.location.hash = "home";
-  } else {
+  } else { //Else load page based on hash
     $('a[href="'+hash+'"]').addClass("active");
   }
 }
